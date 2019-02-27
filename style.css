@@ -1,0 +1,329 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: serif;
+	font-size:11pt;
+}
+body{
+	background-color: #f7f7ff;
+	font-family: serif;
+}
+/* For mobile phones: */
+[class*="col-"] {
+	width: 95%;
+}
+@media only screen and (min-width: 600px) {
+	/* For tablets: */
+	.col-s-1 {width: 8.33%;}
+	.col-s-2 {width: 16.66%;}
+	.col-s-3 {width: 25%;}
+	.col-s-4 {width: 33.33%;}
+	.col-s-5 {width: 41.66%;}
+	.col-s-6 {width: 50%;}
+	.col-s-7 {width: 58.33%;}
+	.col-s-8 {width: 66.66%;}
+	.col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;}
+	.col-s-11 {width: 91.66%;}
+	.col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+	/* For desktop: */
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+} 
+
+.bagian::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.headermenu {
+	background-color:#006e90;
+	overflow: hidden;
+	margin: auto;
+}
+.isiheader{
+	padding: 0px 2px;
+}
+.isiheader li{
+	font-size: 11pt;
+}
+.logo{
+	padding-right: 20px;
+	color: white;
+	font-style: bold;
+	font-family: sans-serif;
+	border-right: solid 2px;
+}
+.menubar {
+	list-style-type: none;
+}
+.menubar li a {	
+	float: left;
+	padding: 25px;
+	text-decoration: none;
+	color: white;
+	font-size: 15pt;
+	border: #006e90 solid 1px;
+}
+.menubar li a:hover {
+	background-color: #008cb7;
+	border: #FFFFFF solid 1px;
+	border-radius: 3px;
+	transition: 0.8s;
+}
+.menubar li a:target{
+	background-color: #008cb7;
+	border: #FFFFFF solid 5px;
+	border-radius: 3px;
+}
+.content {
+	padding: 20px 0px;
+}
+.pencarian{
+	display: block;
+	padding: 15px;
+	background: white;	
+	margin: auto;
+	border: #B3B3B3 solid 3px;
+	border-radius: 10px;
+}
+
+.pencarian label{
+	font-weight: bold;
+	font-family: fantasy;
+	margin-right: 15px; 
+}
+.pencarian form{
+
+}
+.pencarian input, .pencarian button{
+	padding: 10px 8px;
+	border: #B3B3B3 solid 1px;
+	border-radius: 10px;
+}
+.pencarian button{
+	cursor: pointer;
+	background-color: #006e90;
+	color: white;
+}
+.pencarian button:hover{
+	background-color: black;
+	
+}
+.pernyataan{
+	font-style: normal;
+	color: #006e90;
+	margin-top: 15px;
+	font-family: serif;
+	font-weight: bolder;
+	text-align: center;
+}
+.daftariklan {
+	overflow: hidden;
+	padding: 15px;
+	background: white;	
+	margin: auto;
+	border: #B3B3B3 solid 1px;
+	border-radius: 10px;
+
+}
+.daftariklan #isiiklan {
+	user-select: none;
+	-moz-user-select: none;
+	overflow: hidden;
+	padding: 15px;
+	margin: 7px auto;
+	border: #B3B3B3 solid 1px;
+	border-radius: 10px;
+	transition: 0.2s;
+}
+.daftariklan #isiiklan:hover {
+	box-shadow: 0 0 2px 2px rgba(0, 140, 186, 0.5);
+}
+.daftariklan #isiiklan img {
+	top: 0px;
+	margin-right: 15px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	transition: 0.3s;
+}
+.daftariklan #isiiklan img:hover{
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.daftariklan #isiiklan .judul {
+	font-size: 18pt;
+	font-weight: bold;
+}
+.daftariklan #isiiklan .harga {
+	font-size: 18pt;
+	font-weight: bold;
+}
+.daftariklan #isiiklan button{
+	float: right;
+	font-weight: bolder;
+	padding: 10px 30px;
+	transition: 0.3s;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	margin: 3px 5px;
+}
+#isiiklan button:hover{
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	cursor: pointer;
+}
+
+.daftariklan #isiiklan .btnpesan {
+	background-color: #006E90;
+	color: white;
+}
+#lanjut {
+	float: right;
+}
+#lanjut button{
+	font-size: 16pt;
+	padding: 7px 20px;
+	transition: 0.3s;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	background-color: #006E90;
+	color: white;
+}
+#lanjut button:hover{
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	cursor: pointer;
+}
+
+.rincianiklan {
+	overflow: hidden;
+	padding: 15px;
+	background: white;	
+	margin: auto;
+	border: #B3B3B3 solid 1px;
+	border-radius: 10px;
+	
+}
+rincianiklan .isiiklan{
+	margin: auto;
+}
+.rincianiklan h2{
+	text-align: center;
+	margin: auto;
+}
+.rincianiklan #isiiklan {
+	overflow: hidden;
+	padding: 15px;
+	margin: 7px auto;
+	border: #B3B3B3 solid 1px;
+	border-radius: 10px;
+	transition: 0.2s;
+}
+.rincianiklan #isiiklan img {
+	float: left;
+	top: 0px;
+	margin-right: 15px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	transition: 0.3s;	
+}
+.rincianiklan #isiiklan img:hover{
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+
+}
+.rincianiklan .ringkasan {
+	float: left;
+
+}
+.ringkasan div{
+	background-image: url("img/ringkasan.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 70px;
+	margin: 5px 0px;
+	transition: 0.3s;
+}
+.ringkasan div:hover{
+	background-image: url("img/ringkasanhover.png");
+	color: white;
+	font-weight: bold;
+}
+.ringkasan .ring{
+	text-align: center;
+	line-height:70px;
+	display: block;
+}
+.labelharga {
+	margin: auto;
+	font-size: 24pt;
+	text-align: center;
+	font-weight: bold;
+}
+.kontak{
+	margin: auto;
+}
+.kontak button {
+	font-weight: bold;
+	transition: 0.3s;
+	background-color: blue;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	margin: 5px;
+	background-color: #006E90;
+	color: white;
+	font-size: 16pt;
+	padding: 15px 25px;
+}
+.kontak .telp {
+	background-color: #f7f7ff;
+	color: black;
+}
+.footer {
+	margin: 10px auto;
+}
+.footer p {
+	text-align: justify;
+	margin: 10px 0px;
+}
+.footer #kategori {
+	float: left;
+}
+.footer #social {
+	float: left;
+}
+.footer #pengaturan {
+	float: left;
+}
+
+/*Halaman Pesan
+*/
+
+.daftariklan #isipesan {
+
+	overflow: hidden;
+	padding: 25px;
+	margin: 7px auto;
+	border: #B3B3B3 solid 1px;
+	border-radius: 10px;
+	transition: 0.2s;
+	height: 20px;
+}
+.daftariklan #isipesan:hover {
+	box-shadow: 0 0 2px 2px rgba(0, 140, 186, 0.5);
+	cursor: pointer;
+}

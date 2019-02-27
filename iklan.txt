@@ -1,0 +1,12 @@
+	<div id="isiiklan">
+				<img src="img/tanah.jpg" class="col-1" align="left">
+				<label class="judul">Dijual Tanah Seluas 5 hektar Daerah Gading Serpong, COD</label><br>
+				<label class="tgl"><i>31 Oktober 2018 - Kota Tangerang</i></label>
+				
+				<br>
+				<label class="desk">Tempat mudah diakses dari Jalan Utama dan TOL, gambar membangun karena dekat dari tempat dan Toko Kelontongan,
+				Sumber Air. Nego Sampai Deal. BU untuk Membuka usaha. Surat-surat lengkap</label><br>
+				<label class="harga">Rp. 35.000.000 ,-</label>
+				<a href="pesan.php"><button class="col-2 btnpesan">Pesan</button></a>
+				<a  href="rincian.php"><button class="col-2 btnrincian">Rincian</button></a>
+			</div>
